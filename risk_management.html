@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta name="applicable-device" content="pc,mobile"/>
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <meta name="format-detection" content="telephone=no" />
+    <title>中联惠捷官网</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/advantage.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/aos.css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+</head>
+<style>
+
+</style>
+
+<body>
+<div id="outBox" class="riskBox">
+    <!--头部导航-->
+    <!--#include file="base/header.html"-->
+    <div class="contain_box">
+        <img src="images/banner_02.jpg" alt="">
+        <!--九大风险管理模块-->
+        <div class="risk case_info">
+            <p class="aboutTitle animated fadeInUp">风险管理</p>
+            <p class="aboutEn caseEn animated fadeInUp">RISK MANAGEMENT</p>
+            <div class="risk_content">
+                <div class="item">
+                    <p class="item_title">数据处理平台</p>
+                    <ul class="item_detail">
+                        <li>结合业务申请数据</li>
+                        <li>基于人行征信数据</li>
+                        <li>整合外部正规、权威第三方数据源</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <p class="item_title">反欺诈识别</p>
+                    <ul class="item_detail">
+                        <li>自建黑名单数据源</li>
+                        <li>利用1000+反欺诈规则</li>
+                        <li>SNA社交网络反欺诈</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <p class="item_title">风控模型</p>
+                    <ul class="item_detail">
+                        <li>基于机器学习算法，建立A卡评分模型</li>
+                        <li>不同产品、不同机构风险偏好建立不同模型</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <p class="item_title">差异化定价策略</p>
+                    <ul class="item_detail">
+                        <li>综合判断客户风险状况，对好坏客户进行差异化定价</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <p class="item_title">额度测算模型</p>
+                    <ul class="item_detail">
+                        <li>区分不同资质客群，配套不同额度测算模型</li>
+                    </ul>
+                </div>
+                <div class="item" >
+                    <p class="item_title">差异化审批策略</p>
+                    <ul class="item_detail">
+                        <li>基于客群不同的风险表现，进行差异化审批</li>
+                        <li>100+差异化审批策略</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <p class="item_title">贷中监控</p>
+                    <ul class="item_detail">
+                        <li>建立贷中评分卡，监控其还款行为</li>
+                        <li>GPS监控、预警</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <p class="item_title">贷后资产管理</p>
+                    <ul class="item_detail">
+                        <li>遍布全国的公检法合作机构</li>
+                        <li>流程化的资产处理机制</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <p class="item_title">渠道管理</p>
+                    <ul class="item_detail">
+                        <li>对渠道评级，差异化管理</li>
+                        <li>人人代理机制，扩大客户来源</li>
+                    </ul>
+                </div>
+
+            </div>
+            <!--核心系统-->
+            <p class="aboutTitle" aos="fade-up">核心系统</p>
+            <p class="aboutEn caseEn" aos="fade-up">CORE SYSTEM</p>
+            <div class="risk_content">
+                <div class="item" aos="fade-up">
+                    <p class="item_title">中联惠捷核心系统</p>
+                    <ul class="item_detail">
+                        <li>客户信息数据</li>
+                        <li>第三方数据</li>
+                       <li>征信数据</li>
+                    </ul>
+                </div>
+                <div class="item" aos="fade-up">
+                    <p class="item_title">中联惠捷决策引擎系统-风云策</p>
+                    <ul class="item_detail">
+                        <li>支持多种组件的灵活配置</li>
+                        <li>基于Drools的变量二次加工与编辑功能</li>
+                        <li>独立部署，支持热上线</li>
+                        <li>基于Abtest功能，进行策略迭代</li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--尾部-->
+    <!--#include file="base/footer.html"-->
+</div>
+
+
+</body>
+<script type="text/javascript" src="js/base.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/aos.js"></script>
+<script type="text/javascript">
+    //页面滚动效果
+    AOS.init({
+        easing: 'ease-out',
+        duration: 200,
+        disable: 'mobile'
+    });
+    $(function () {
+        $('.li_three').addClass('active');
+        /*item悬浮item_title变色*/
+        $('.item').each(function () {
+            $(this).mouseenter(function () {
+                $(this).find('.item_title').addClass('goldColor');
+                $(this).find('.item_detail li').addClass('blackColor');
+            }).mouseleave(function () {
+                $(this).find('.item_title').removeClass('goldColor');
+                $(this).find('.item_detail li').removeClass('blackColor');
+            })
+        })
+    })
+</script>
+
+</html>

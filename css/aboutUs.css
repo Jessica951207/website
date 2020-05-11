@@ -1,0 +1,263 @@
+/*公司简介*/
+.brand{
+    width: 100%;
+}
+.brand_content{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.brandTitle{
+    margin-top: 10%;
+}
+.brandEn{
+    margin: 1% 0 5% 0;
+}
+.brandPic{
+    width: 70%;
+    margin: 0 auto;
+}
+.brandTxt{
+    width: 50%;
+    margin: 0 auto;
+    line-height: 36px;
+    font-size: 14px;
+    color: rgba(119,119,119,1);
+    margin-top: 3%;
+}
+.aboutEn{
+    margin: 2% 0 10% 0;
+}
+
+/*管理团队*/
+.manager{
+    width: 100%;
+    height: auto;
+}
+.manager .text-center{
+    padding-top: 7%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.manager .text-center .p_font{
+    font-size: 1.7rem;
+    margin-bottom: 2%;
+}
+.manager .detail_intro{
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 5%;
+}
+.manager .detail_intro .deal{
+    width: 100%;
+    margin-bottom: 2%;
+    background: #fff;
+    box-shadow: 0 0 13px -4px #abb1ad;
+}
+.manager .detail_intro .deal:last-child{
+    margin-bottom:0;
+}
+.manager .detail_intro .item{
+    display: flex;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+.open_icon{
+    width: 5%;
+    margin-left: 2%;
+}
+.manager .open{
+    width: 100%;
+    margin-top: 70%;
+}
+
+.manager .person{
+    width: 10%;
+    margin-right: 4%;
+    flex-shrink: 0;
+}
+.detail_info{
+    display: none;
+    width: 75%;
+    margin-left: 17%;
+    padding: 10px 0;
+    border-top: 1px solid #e5e5e5;
+}
+.item_txt{
+    width: 75%;
+}
+.managerEn{
+    margin: 0 0 4% 0;
+    line-height: 40px;
+}
+.mimi_font{
+    line-height: 30px;
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
+}
+.p_padding{
+    margin-bottom: 3%;
+}
+.manager_name {
+    font-size: 24px;
+    color: #b38d54;
+    margin-right: 30px;
+}
+.mimi_font span{
+    font-weight: bold;
+}
+.change{
+    transform: rotateZ(-180deg);
+    transition: transform 1s;
+}
+
+
+/*企业大事记*/
+.event .BigEvent{
+    width: 100%;
+    position: relative;
+}
+.event .detail_eve{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.event .history{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+.event .timeline{
+    display: flex;
+    padding-top: 5%;
+}
+.p_font {
+    font-size: 1.8rem;
+    margin-bottom: 4%;
+    font-weight: bold;
+    text-align: center;
+}
+.event .timeblock{
+    width: 12%;
+    position: relative;
+}
+.event .timeline_event{
+    width: 100%;
+    background: #3a3845;
+    color: #ffffff;
+    text-align: center;
+    padding: 10% 0;
+}
+.event .timeline_icon{
+    width: 11%;
+    margin: 0% auto;
+    margin-top: 4%;
+}
+.event .timeline_icon2{
+    width: 11%;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.event .vertical{
+    width: 2px;
+    height: 80px;
+    background: #8ca0b8;
+    margin: 0 auto;
+    margin-top: -10%;
+}
+.event .vert{
+    margin-top: 0;
+}
+.event .p_margin{
+    margin-top: 5%;
+}
+.event .p_margin2{
+    margin-bottom: 5%;
+}
+.event .time_txt{
+    position: absolute;
+    top: -67%;
+    left: 0;
+}
+
+.event .timearrow{
+    width: 43%;
+    position: absolute;
+    top: -54%;
+    transform: translate(0,50%);
+}
+.event .p_margin3{
+    margin-bottom: 15%;
+}
+.event .footer a{
+    color: #000000;
+}
+.event .copyright{
+    border-top: 1px solid #000000;
+}
+
+@media screen and (max-width: 1024px){
+    .CNTitle,.manager_name{
+        font-size: 1.3rem;
+    }
+   .ENTitle,.mimi_font{
+        line-height: 1.6rem;
+        font-size: 1rem;
+    }
+    .brand_content{
+        width: 100%;
+    }
+    .brandPic{
+        width: 84%;
+    }
+    .brandTxt{
+        line-height: 1.6rem;
+        font-size: .9rem;
+        width:84%;
+        margin-bottom: 10%;
+    }
+    .event .timeline{
+        display: block;
+    }
+    .event .timeblock{
+        width: 100%;
+        position: static;
+    }
+    .event .vertical{
+        margin-top: 0;
+        height: 50px;
+    }
+    .event .detail_eve{
+        width: 84%;
+    }
+    .event .p_margin{
+        padding: 0 3%;
+    }
+    .manager .detail_intro{
+        width: 84%;
+    }
+    .manager .person{
+        width: 32%;
+        margin: 0 auto;
+        margin-bottom: 4%;
+    }
+    .manager .open{
+        width: 12%;
+        margin: 4% auto;
+    }
+    .manager .detail_intro .item{
+        display: block;
+    }
+    .p_padding{
+        text-align: center;
+    }
+    .item_txt{
+        width: 100%;
+    }
+    .open_icon{
+        width: 100%;
+    }
+}
+
